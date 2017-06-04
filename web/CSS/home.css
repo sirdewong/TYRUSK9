@@ -1,0 +1,111 @@
+#fcontent1{
+    width: 100%;
+    height: auto;
+}
+
+#fcontent2{
+    height: auto;
+    min-height: 720px;
+    width: 100%;
+}
+
+
+#section1{
+    position: relative;
+}
+
+#section2{
+    margin-top: 30px;
+    position: relative;
+}
+
+.field{
+    border: none;
+    margin-bottom: 20px;
+}
+
+#field1{
+    width: 49%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    max-height: 320px;
+    min-height: 320px;
+}
+
+#field2{
+
+}
+
+.fielddiv{
+    
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    font: normal 16px/1 "Times New Roman", Times, serif;
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(2,2,2,0.91) ;
+    box-shadow: 1px 1px 47px -9px rgba(2,2,2,0.91) ;
+    border-radius: 10px;
+
+}
+
+.legend {
+    font-size: 1.4em;
+    text-transform: capitalize;
+    padding: 10px 0 10px 10px;
+}
+
+.section .number {
+    background: #abcdef;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    line-height: 10px;
+    text-align: center; 
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px 15px 15px 15px;
+    margin: 10px 10px 0px;
+}
+.scheduling{
+  margin: 0 10px 5px 10px;
+  border-collapse: collapse;
+}
+
+.scheduling  .schedule:nth-child(odd){
+  
+}
+
+.scheduling  .schedule:nth-child(even){
+  background: #E9eff8;
+}
+.schedule{
+  width: 100%;
+  clear:left;
+}
+
+.std{
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+.schedcolumn1{
+  display: inline-block;
+  width: 34%;
+  line-height: 7px;
+  float: left;
+  padding-top: 13px;
+}
+
+.schedcolumn2{
+  display: inline-block;
+  width: 64%;
+}
+
+.viewall{
+  float: right;
+  font-size: 0.60em;
+  margin-right: 15px;
+}

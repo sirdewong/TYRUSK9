@@ -1,0 +1,30 @@
+String value = request.getParameter("rememberMe");
+boolean rememberMe = false;
+if(value != null && value.equalsIgnoreCase("on")){
+    rememberMe = true;
+}
+if (rememberMe) {           //If your checkbox value is true
+Cookie cookieUsername = new Cookie("cookieLoginUser", username);
+Cookie cookiePassword = new Cookie("cookieLoginPassword",
+                    password);
+// Make the cookie one year last
+cookieUsername.setMaxAge(60 * 60 * 24 * 365);
+cookiePassword.setMaxAge(60 * 60 * 24 * 365);
+servletResponse.addCookie(cookieUsername);
+servletResponse.addCookie(cookiePassword);
+}
+And in your jsp page,
+
+<%Cookie[] cookies=request.getCookies();
+String name="",pass="";
+if (cookies != null) {
+     for (Cookie cookie : cookies) {
+       if (cookie.getName().equals("cookieLoginUser")) {
+           name=cookie.getValue();
+       }
+       if(cookie.getName().equals("cookieLoginPassword")){
+           pass=cookie.getValue();
+       }
+    }
+}
+%>

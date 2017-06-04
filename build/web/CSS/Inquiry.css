@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 10, 2017, 11:25:12 AM
+    Author     : OHSEC
+*/
+#body1{
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    border: none;
+    font: normal 16px/1 "Times New Roman", Times, serif;
+    -webkit-box-shadow: 1px 1px 1px 1px rgba(2,2,2,0.91) ;
+    box-shadow: 1px 1px 47px -9px rgba(2,2,2,0.91) ;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+#inquirybody{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+
+.isuccess{
+    color: green;
+    position: absolute;
+    left: 50px;
+    bottom: -100px;
+}
+
+.input{
+    margin: 10px 0 5px 50px;
+    width: 100%;
+    height: 50px;
+    padding: 0 0 0 20px;
+
+}
+
+.titlebar{
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.iinput input{
+    box-shadow: 1px 1px 30px -9px rgba(2,2,2,0.91) ;
+}
+
+.enjoy-css {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 45%;
+    position: absolute;
+    left: 50px;
+    bottom: -50px;
+    padding: 10px 20px;
+    -webkit-border-radius: 8px / 13px;
+    border-radius: 8px / 13px;
+    font: normal 16px/normal "Times New Roman", Times, serif;
+    color: black;
+    background: -webkit-linear-gradient(-45deg, rgba(255,255,255,0) 0, rgba(162,202,216,0.2) 25%, rgba(177,200,211,0.8) 61%, rgba(255,255,255,0.8) 100%), rgba(215,229,234,0.78);
+    background: -moz-linear-gradient(135deg, rgba(255,255,255,0) 0, rgba(162,202,216,0.2) 25%, rgba(177,200,211,0.8) 61%, rgba(255,255,255,0.8) 100%), rgba(215,229,234,0.78);
+    background: linear-gradient(135deg, rgba(255,255,255,0) 0, rgba(162,202,216,0.2) 25%, rgba(177,200,211,0.8) 61%, rgba(255,255,255,0.8) 100%), rgba(215,229,234,0.78);
+    background-position: 50% 50%;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+    -webkit-box-shadow: 0 1px 4px 3px rgba(0,0,0,0.4) ;
+    box-shadow: 0 1px 4px 3px rgba(0,0,0,0.4) ;
+    -webkit-transition: transform-origin 192ms cubic-bezier(0, -0.005, 0.98, 0.96), transform 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    -moz-transition: transform-origin 192ms cubic-bezier(0, -0.005, 0.98, 0.96), transform 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    -o-transition: transform-origin 192ms cubic-bezier(0, -0.005, 0.98, 0.96), transform 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    transition: transform-origin 192ms cubic-bezier(0, -0.005, 0.98, 0.96), transform 200ms cubic-bezier(0.42, 0, 0.58, 1) 10ms;
+    border-style: inset; border-width: 2px;
+}
+
+.enjoy-css:hover,
+.enjoy-css:focus{  
+  background-color: #e97171;
+  background-image: linear-gradient(top, #d14545, #e97171);
+
+}
+
+
